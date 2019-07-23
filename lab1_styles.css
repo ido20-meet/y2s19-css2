@@ -9,10 +9,27 @@ h1 {
 }
 
 p {
-    color: green;
+    color: #13A7F2;
     font-size: 24pt;
 }
 
 a {
-    color:red;
+    color:#0008AF;
+}
+/* mouse over link */
+a:hover {
+  color: #D36176	;
+}
+/* mouse over link */
+#important_paragraph:hover {
+  background:yellow;
+  font-size:40px;
+  font-family:comic sans MS;
+}
+
+/* mouse over link */
+.less_important_paragraphs:hover {
+  color:blue;
+  font-size:30px;
+  font-family:David;
 }
